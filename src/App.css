@@ -1,31 +1,129 @@
-.App {
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #d4af37;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #b8860b;
+}
+
+
+.box {
+  background-color: white;
+  border: 2px solid #d4af37;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #d4af37;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #d4af37;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #b8860b;
 }
 
-.heart {
-  color: #ff0000;
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-.small {
-  font-size: 0.75rem;
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-item {
+  background-color: #f9f9f9;
+  border: 1px solid #d4af37;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.post-item h3 {
+  margin: 0;
+  color: #333;
+}
+
+.post-item p {
+  color: #555;
+}
+
+.post-item:hover {
+  background-color: #fffbea;
+  border-color: #b8860b;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+ul li {
+  margin: 10px 0;
+  background-color: #fffbea;
+  border: 1px solid #d4af37;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul li:hover {
+  background-color: #fef9e7;
 }
